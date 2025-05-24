@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <header>
+      <div id="sorting">
+        <label for="sort">Sort by: </label>
+        <select id="sort">
+          <option value="releaseDate">Release Date</option>
+          <option value="title">Title</option>
+          <option value="popularity">Popularity</option>
+          <option value="vote_average">Rating</option>
+        </select>
+      </div>
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="Search" />
+      </form>
+    </header>
+
+    <main id="main"></main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
